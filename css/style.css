@@ -1,0 +1,81 @@
+:root{
+  --teal:green;
+  --teal_hover:lightgreen;
+}
+
+
+*{
+            font-family: 'Aldrich','Poppins ', sans-serif;
+        }
+        .h-font{
+            font-family: 'Merienda', cursive;
+        }
+        /* Chrome, Safari, Edge, Opera */
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+
+        /* Firefox */
+            input[type=number] {
+            -moz-appearance: textfield;
+            }
+
+            .custom-bg{
+              background-color:var(--teal);
+              border: 1px solid: var(var(--teal));
+            }
+            .custom-bg:hover{
+              background-color: var(--teal_hover);
+              border-color: var(--teal_hover);
+            }
+       /* Ensure the Swiper container takes full width and height */
+.swiper-container {
+  width: 100%;
+  height: 100vh; /* You can adjust height as needed */
+}
+
+/* Swiper wrapper and slides */
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Images inside the slides */
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* cover = fill the area without distortion */
+  display: block;
+}
+.swiper-container {
+  width: 100%;
+  height: 500px; /* Fixed height */
+}
+
+/* Swiper carousel image fix */
+.swiper-container {
+  width: 100%;
+  height: 400px; /* Adjust as needed for your design */
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.h-line{
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
